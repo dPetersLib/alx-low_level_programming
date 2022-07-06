@@ -1,18 +1,14 @@
-#include <stdio.h>
+#include "main1.h"
 
 /**
  * main - prints the english alphabets in lowercase
+ * from header file
  * Return: always 0
  */
 
 int main(void)
 {
-	char c;
+	print_alphabet();
 
-	for (c = 'a'; c <= 'z'; ++c)
-	{
-		putchar(c);
-	}
-	putchar('\n');
 	return (0);
 }
