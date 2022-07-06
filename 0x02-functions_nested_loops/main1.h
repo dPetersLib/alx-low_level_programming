@@ -14,4 +14,4 @@ void print_alphabet()
 	putchar('\n');
 }
 
-#endif /* MAIN_H */
+#endif /* MAIN1_H */
