@@ -1,18 +1,14 @@
-#include <stdio.h>
+#include "main.h"
 
 /**
- * main - prints the english alphabets in lowercase
+ * main - prints a string from another file specified
+ * in the header
  * Return: always 0
  */
 
 int main(void)
 {
-	char c;
+	printchar();
 
-	for (c = 'a'; c <= 'z'; ++c)
-	{
-		putchar(c);
-	}
-	putchar('\n');
 	return (0);
 }
