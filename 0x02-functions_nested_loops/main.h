@@ -3,9 +3,15 @@
 
 #include <stdio.h>
 
-void printchar()
+void print_alphabet()
 {
-	printf("_putchar\n");
+	char i;
+	
+	for (i = 'a'; i <= 'z'; ++i)
+	{
+		putchar(i);
+	}
+	putchar('\n');
 }
 
 #endif /* MAIN_H */
