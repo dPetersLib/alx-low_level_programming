@@ -1,2 +1,1 @@
-# alx-low_level_programming
-C programming
+This directory contains tasks on effective and efficient Debugging
