@@ -1,7 +1,7 @@
 #include "main.h"
 
 /**
- * main - check for a digit from 0 to 9
+ * _isdigit - check for a digit from 0 to 9
  * @c: digit to enumerate
  * Return: 1 if c is a digt, 0 otherwise
  */
