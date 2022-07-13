@@ -2,9 +2,6 @@
 #define MAIN_H_INCLUDED
 
 
-void reset_to_98(int *n)
-{
-	*n = 98;
-}
+void reset_to_98(int *n);
 
 #endif // MAIN_H_INCLUDED
