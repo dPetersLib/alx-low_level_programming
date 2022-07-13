@@ -1,7 +1,7 @@
-#ifndef MAIN_H_INCLUDED
-#define MAIN_H_INCLUDED
+#ifndef MAIN_H
+#define MAIN_H
 
 
 void reset_to_98(int *n);
 
-#endif // MAIN_H_INCLUDED
+#endif // MAIN_H
