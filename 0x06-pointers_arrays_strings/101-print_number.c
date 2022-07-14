@@ -2,16 +2,9 @@
 
 /**
  * print_number - function that prints an integer
- * _putchar - prints a character
- * @c: character to print
- * @n: integer to print
+ * @n: character to print
  * Return: return
  */
-int _putchar(char c)
-{
-	return (write(1, &c, 1));
-}
-
 void print_number(int n)
 {
 	unsigned int num = n;
