@@ -3,6 +3,12 @@
 
 #include <stdio.h>
 #include <stdlib.h>
+#include <unistd.h>
+
+int _putchar(char c)
+{
+	return (write(1, &c, 1));
+}
 
 char *_strcat(char *dest, char *src);
 char *_strncat(char *dest, char *src, int n);
