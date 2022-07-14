@@ -14,7 +14,7 @@ int _stoi(char *s)
 
 	temp = s;
 	num = 0;
-	sign = i;
+	sign = 1;
 	while (*temp != '\0' && (*tem < '0' || *temp > '9'))
 	{
 		if (*temp == '-')
