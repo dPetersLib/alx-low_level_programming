@@ -15,7 +15,7 @@ void print_diagsums(int *a, int size)
 	sumDiag1 = 0;
 	sunDiag2 = 0;
 
-	size 1 = (size * size) - 1;
+	size1 = (size * size) - 1;
 
 	for (i = 0; i <= size1; i = i + (size + 1))
 	{
