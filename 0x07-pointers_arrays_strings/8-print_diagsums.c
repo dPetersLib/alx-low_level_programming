@@ -13,7 +13,7 @@ void print_diagsums(int *a, int size)
 
 	size1 = 0;
 	sumDiag1 = 0;
-	sunDiag2 = 0;
+	sumDiag2 = 0;
 
 	size1 = (size * size) - 1;
 
@@ -25,5 +25,5 @@ void print_diagsums(int *a, int size)
 	{
 		sumDiag2 = sumDiag2 + a[i];
 	}
-	printf("%d, %d\n", sunDiag1, sumDiag2);
+	printf("%d, %d\n", sumDiag1, sumDiag2);
 }
